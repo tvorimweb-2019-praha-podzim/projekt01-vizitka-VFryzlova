@@ -1,58 +1,131 @@
-body{
-text-align: center;
-font-family: 'Montserrat';
-font-size: 14px;
-color: #414141;
-background-color: rgb(221, 221, 221);
+body {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #414141;
+    background-color: rgb(221, 221, 221);
 }
-header{
+
+/* TEXT MOJE VIZITKA */
+
+header {
     padding-top: 20px;
     font-size: 5vw;
     font-weight: bold;
     color: #afafaf;
+    text-transform: uppercase;
 }
-#box{
-margin:auto;
-display: flex;
-background-color: rgb(255, 255, 255);
-max-width: 900px;
-padding: 10px;
-justify-content: center;
-align-items: center;
+
+/* OBÁLKA */
+
+#obalka {
+    max-width: 900px;
+    margin: auto;
 }
-article{
-width: 60%;
-text-align: left;
-padding: 10px;
+
+/* MENU */
+
+nav {
+    background-color: #3d3d3d;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    box-shadow: 1.5px 1.5px 2px #d1d1d1;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), #914464);
 }
-article a{
+
+nav a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 20px;
+    text-shadow: 1.5px 1.5px 2px #000000;
+}
+nav a:visited {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 20px;
+    text-shadow: 1.5px 1.5px 2px #000000;
+}
+nav a:active {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 20px;
+    text-shadow: 1.5px 1.5px 2px #000000;
+}
+nav a:hover {
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 20px;
+    text-shadow: 1.5px 1.5px 2px #000000;
+    background-color: rgba(37, 37, 37, 0.418);
+}
+/* BÍLÝ PODKLAD */
+
+#box {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    box-shadow: 1.5px 1.5px 2px #d1d1d1;
+}
+
+/* TEXT O MĚ */
+
+article {
+    width: 60%;
+    text-align: left;
+    padding: 10px;
+}
+
+article a {
     text-decoration: none;
     color: #914464;
     font-weight: bold;
+    text-transform: uppercase;
 }
-article a:visited{
+
+article a:visited {
     text-decoration: none;
     color: #914464;
     font-weight: bold;
+    text-transform: uppercase;
 }
-article a:active{
+
+article a:active {
     text-decoration: none;
     color: #914464;
     font-weight: bold;
+    text-transform: uppercase;
 }
-article a:hover{
+
+article a:hover {
     text-decoration: none;
     color: #bb7b96;
     font-weight: bold;
+    text-transform: uppercase;
 }
-article h1{
+
+/* TEXT O MĚ NADPIS */
+
+article h1 {
     font-size: 25px;
     color: #914464;
 }
-aside{
-width: 40%;
-padding: 10px;
+
+/* FOTKA */
+
+aside {
+    width: 40%;
+    padding: 10px;
 }
-aside img{
+
+aside img {
     max-width: 90%;
+    border-radius: 3px;
 }
